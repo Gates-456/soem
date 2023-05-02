@@ -85,6 +85,15 @@ Simply clone this repository into your workspace
 ```bash
 git clone https://github.com/cplasberg/soem.git
 ```
+change into that repo
+```bash
+cd <foo/bar>/soem
+```
+and load the submodule
+```bash
+git submodule init
+git submodule update
+```
 
 Note that if you want to update or patch the subtree which includes the SOEM upstream repository, you need to be sure
 to do this properly.
