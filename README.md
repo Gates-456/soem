@@ -101,3 +101,9 @@ When creating this, I followed the instructions in
 [this Atlassian blog post](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree).
 This covers all the things you need.
 
+## Erroe
+Since I generated a dynamic library package, I reported an error:  
+      ubuntu ros2 humble cannot open shared object file: No such file or directory
+```bash
+https://github.com/OpenEtherCATsociety/SOEM/issues/719
+```
