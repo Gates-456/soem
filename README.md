@@ -102,6 +102,7 @@ When creating this, I followed the instructions in
 This covers all the things you need.
 
 ## Erroe
+sudo setcap cap_net_raw,cap_ipc_lock=+ep my_node
 Since I generated a dynamic library package, I reported an error:  
       ubuntu ros2 humble cannot open shared object file: No such file or directory
 ```bash
